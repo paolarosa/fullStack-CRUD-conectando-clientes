@@ -1,6 +1,6 @@
 import axios from "axios"
 
 export const api = axios.create({
-  baseURL: "https://challenge-fullstack-interview.onrender.com",
+  baseURL: 'http://localhost:3000',
   timeout: 5000,
 })

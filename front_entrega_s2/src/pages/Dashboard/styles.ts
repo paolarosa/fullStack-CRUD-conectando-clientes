@@ -23,6 +23,26 @@ export const DashboardContainer = styled.div`
     color: white;
     font-size: 12px;
   }
+  .buttonAdd {
+    background: var(--color-gray-800);
+    border-radius: 4px;
+    margin-top: 15px;
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+  }
+  .buttonDelete{
+    background: var(--color-gray-800);
+    border-radius: 4px;
+    margin-top: 15px;
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+  }
+  .divMain{
+    display: flex;
+    flex-direction: column;
+  }
   ul {
     background:var(--color-gray-700);
     border-radius: 4px;
@@ -32,7 +52,7 @@ export const DashboardContainer = styled.div`
     padding: 15px 5px;
   }
 
-  .movieTitle {
+  .contactTitle {
     display: flex;
     align-items: center;
     justify-content: space-between;

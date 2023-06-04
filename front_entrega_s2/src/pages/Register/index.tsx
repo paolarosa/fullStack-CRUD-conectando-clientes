@@ -25,7 +25,7 @@ export const Register = () => {
       };
   
       schema.parse(values);
-      const response = await api.post("/users", values);
+      const response = await api.post("/clients", values);
       console.log(response.data);
 
       setNome("");
