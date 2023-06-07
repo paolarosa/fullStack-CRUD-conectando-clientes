@@ -3,7 +3,8 @@ import path from "node:path"
 import "dotenv/config"
 import { Client } from "./entities/client.entitie"
 import { Contact } from "./entities/contact.entitie"
-import { CreateTable21685837611385 } from "./migrations/1685837611385-CreateTable2"
+import { CreateTable1686163373685 } from "./migrations/1686163373685-CreateTable"
+
 
 
 
@@ -20,7 +21,7 @@ const DataSourceConfig = (): DataSourceOptions => {
         synchronize: false,
         logging: true,
         entities: [Client, Contact],
-        migrations: [CreateTable21685837611385]
+        migrations: [CreateTable1686163373685]
     }
 }
 
