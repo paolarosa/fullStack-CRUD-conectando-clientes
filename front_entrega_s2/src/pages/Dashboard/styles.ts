@@ -1,9 +1,12 @@
 import styled from "styled-components";
+import backgroundColor from "../../assets/pastel.jpg"
 
 export const DashboardContainer = styled.div`
   width: 100vw;
   height: 100vh;
-  background-color: var(--color-gray-850);
+  background: url(${backgroundColor}) no-repeat center center fixed;
+  background-size: cover;
+ /*  background-color: var(--color-gray-850); */
   padding: 10px 20px 0 20px;
   position: relative;
 
@@ -24,18 +27,21 @@ export const DashboardContainer = styled.div`
     font-size: 12px;
   }
   .buttonAdd {
-    background: var(--color-gray-800);
+    background: #E75BC2;
     border-radius: 4px;
+    border: none;
     margin-top: 15px;
+    margin-right: 10px;
     color: white;
     font-size: 12px;
     padding: 8px;
   }
   .buttonDelete{
-    background: var(--color-gray-800);
-    border-radius: 4px;
+    background: #00B8EA;
+    border-radius: 6px;
+    border: none;
     margin-top: 15px;
-    color: white;
+    color: ;
     font-size: 12px;
     padding: 8px;
   }
@@ -44,11 +50,12 @@ export const DashboardContainer = styled.div`
     flex-direction: column;
   }
   ul {
-    background:var(--color-gray-700);
+  /*   background:var(--color-gray-700); */
+  background: none;
     border-radius: 4px;
     display: flex;
-    flex-direction: column;
-    gap: 15px;
+   flex-direction: column;
+    gap: 20px;
     padding: 15px 5px;
   }
 
@@ -57,18 +64,18 @@ export const DashboardContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
-    color: var(--color-gray-100);
+    color: black;
     weight: 500;
   }
   h2 {
     font-size: 18px;
-    color: white;
+    color: black;
     margin: 30px 0 20px 0;
   }
   li {
-    color: white;
-    background: var(--color-gray-850);
-    border-radius: 4.06066px;
+    color: black;
+    background: var(--color-gray-100);
+   /*  border-radius: 15px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,6 +83,40 @@ export const DashboardContainer = styled.div`
     font-size: 15px;
     padding: 0 5px;
     margin: 0 px;
+    -webkit-box-shadow: 3px 4px 0px 3px rgba(0,0,0,1);
+-moz-box-shadow: 3px 4px 0px 3px rgba(0,0,0,1);
+box-shadow: 3px 4px 0px 3px rgba(0,0,0,1);
+  }
+
+  h3{
+    width: 100%;
+    box-shadow: 0px 2px 0px 0px black;
+
+  }
+  .icon{
+    width:20px;
+    height:20px;
+    margin-right: 15px;
+  }
+
+  li div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top:10px;
+  }
+  .delete{
+    border:none;
+    background: none;
+    display:flex;
+    font-size: 15px;
+ 
+
+  }
+
+  .delete h3{
+    box-shadow: none
+    
   }
   .divStatusTrash {
     display: flex;
@@ -107,24 +148,40 @@ export const DashboardContainer = styled.div`
       max-width: 1440px;
     }
     ul {
-      width: 100%;
+    /*   width: 100%;
       max-width: 1440px;
-      padding: 15px 15px;
-    }
-    li {
-      width: 100%;
+      padding: 15px 15px; */
       display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 5px;
+    }
+
+    li {
+      width: 300px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
       justify-content: space-between;
       padding: 0 10px;
     }
     li:hover {
       background-color: var(--color-gray-800);
     }
+
+/*     h3{
+    
+  box-shadow: 0px 3px 0px 0px black;
+
+  } */
     .trash {
       color: white;
-      weight: 20px;
-      height: 10px;
+      weight: 25px;
+      height: 25px;
       cursor: pointer;
+      margin: 0 15px 10px 0;
     }
 }
   `

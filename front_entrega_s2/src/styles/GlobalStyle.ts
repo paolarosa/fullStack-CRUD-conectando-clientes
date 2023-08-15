@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import backgroundColor from "../../assets/fundo-colorido-abstrato_78899-3842.avif"
 
 export default createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -52,8 +53,8 @@ export default createGlobalStyle`
   }
 
   body {
-    background: var(--color-gray-900);
-    color: var(--color-gray-300);
+    /* background: var(--color-gray-900); */
+    color: black;
     -webkit-font-smoothing: antialiased;
 
     overflow-x: hidden;

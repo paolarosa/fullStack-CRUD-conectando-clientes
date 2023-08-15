@@ -1,11 +1,13 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import backgroundColor from "../../assets/pastel.jpg"
 
 export const FormLogin = styled.div`
   width: 100vw;
   height: 800px;
+  background: url(${backgroundColor}) no-repeat center center fixed;
+  background-size: cover;
   font-family: "Inter";
-  background-color: var(--color-gray-850);
 
   .divContainer {
     width: 100%;
@@ -24,7 +26,7 @@ export const FormLogin = styled.div`
   form {
     width: 95%;
     height: 420px;
-    background: var(--color-gray-700);
+    background: #4983ED;
     box-shadow: 0px 3.19812px 31.9812px -7.99531px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     margin-top: 20px;
@@ -34,12 +36,12 @@ export const FormLogin = styled.div`
   }
   label {
     color: var(--color-gray-100);
-    font-size: 10px;
+    font-size: 15px;
     margin: 30px 0 8px 0;
   }
   input {
-    background: var(--color-gray-800);
-    border: 0.973988px solid var(--color-gray-800);
+    background:white;
+    border: none;
     border-radius: 3.19812px;
     width: 100%;
     height: 38px;
@@ -57,13 +59,13 @@ export const FormLogin = styled.div`
     height: 38px;
     padding-left: 10px;
     font-size: 14px;
-    background-color: var(--color-blue-700);
-    color: white;
+    background-color: #5CD5F3;
+    color: black;
     margin: 20px 0 30px 0;
   }
 
   h4 {
-    color: var(--color-gray-600);
+    color: white;
     font-size: 12px;
     text-align: center;
   }
@@ -93,6 +95,7 @@ export const FormLogin = styled.div`
     p {
       padding-top: 8px;
       font-size: 10px;
+      color: white;
     }
   }
 `;
