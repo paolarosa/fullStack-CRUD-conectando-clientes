@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 import backgroundColor from "../../assets/fundo-colorido-abstrato_78899-3842.avif"
 
 export default createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
    :root {
     --color-blue-900: #0d47a1;
     --color-blue-800: #1565c0;
@@ -44,7 +44,7 @@ export default createGlobalStyle`
     padding: 0;
     outline:0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 
   body,html{
@@ -53,10 +53,8 @@ export default createGlobalStyle`
   }
 
   body {
-    /* background: var(--color-gray-900); */
-    color: black;
     -webkit-font-smoothing: antialiased;
-
+    font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
   }
 

@@ -158,11 +158,14 @@ export const Dashboard = () => {
       </div>
       <div className="divMain">
         <div className="contactTitle">
-          <h2>Olá, {client?.name}</h2>
+          <h2>
+            Olá, <span style={{ fontWeight: "normal" }}></span>
+            <span style={{ fontWeight: "bold" }}>{client?.name}</span>
+          </h2>
           <p>Email: {client?.email}</p>
           <p>Telefone: {client?.phone}</p>
         </div>
-        <h2 className="title">Contatos:</h2>
+        <h2 className="title">Seus Contatos:</h2>
         <ul>
           {contacts.map((contact) => (
             <li

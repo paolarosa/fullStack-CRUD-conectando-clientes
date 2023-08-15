@@ -85,6 +85,7 @@ export const Register = () => {
           <input
             type="text"
             value={nome}
+            placeholder="Digite aqui seu nome"
             onChange={(event) => setNome(event.target.value)}
           />
           {errors.name && <span className="errorSpan">{errors.name}</span>}
@@ -92,6 +93,7 @@ export const Register = () => {
           <input
             type="email"
             value={email}
+            placeholder="Digite aqui seu email"
             onChange={(event) => setEmail(event.target.value)}
           />
           {errors.email && <span className="errorSpan">{errors.email}</span>}
@@ -99,6 +101,7 @@ export const Register = () => {
           <input
             type="password"
             value={senha}
+            placeholder="Digite aqui sua senha"
             onChange={(event) => setSenha(event.target.value)}
           />
           {errors.password && (
@@ -108,6 +111,7 @@ export const Register = () => {
           <input
             type="text"
             value={telefone}
+            placeholder="Digite aqui seu telefone"
             onChange={(event) => setTelefone(event.target.value)}
           />
           {errors.phone && <span className="errorSpan">{errors.phone}</span>}

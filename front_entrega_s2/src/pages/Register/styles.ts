@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import { Link as LinkRouter } from "react-router-dom";
-import backgroundColor from "../../assets/pastel.jpg"
+import backgroundColor from "../../assets/a31.jpg"
 import { Link } from "react-router-dom";
 
 export const FormRegister = styled.div`
@@ -27,10 +26,10 @@ export const FormRegister = styled.div`
 
   form {
     width: 95%;
-    background: #fcc2d7;
-    -webkit-box-shadow: -3px 2px 20px 2px rgba(247,131,172,1);
--moz-box-shadow: -3px 2px 20px 2px rgba(247,131,172,1);
-box-shadow: -3px 2px 20px 2px rgba(247,131,172,1);
+    background: white;
+    -webkit-box-shadow: 3px 2px 0px 5px rgba(0,0,0,1);
+-moz-box-shadow: 3px 2px 0px 5px rgba(0,0,0,1);
+box-shadow: 3px 2px 0px 5px rgba(0,0,0,1);
     border-radius: 4px;
     margin-top: 20px;
     display: flex;
@@ -39,9 +38,9 @@ box-shadow: -3px 2px 20px 2px rgba(247,131,172,1);
   }
   h2 {
     color: black;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
-    margin: 20px 0;
+    margin: 30px 0 0 0;
   }
   h3 {
     color: black;
@@ -50,15 +49,19 @@ box-shadow: -3px 2px 20px 2px rgba(247,131,172,1);
   }
   label {
     color: black;
-    font-size: 14px;
+    font-size: 16px;
     margin: 20px 0 8px 0;
+  }
+  span{
+    margin-top: 5px;
+    color: red
   }
   input,
   textarea,
   select {
+    border: 1px solid black;
     background: white;
-    border: none;
-    border-radius: 3.19812px;
+    border-radius: 6px;
     width: 100%;
     height: 38px;
     padding-left: 10px;
@@ -71,13 +74,13 @@ box-shadow: -3px 2px 20px 2px rgba(247,131,172,1);
   }
   .buttonSubmit {
     width: 100%;
-    height: 38px;
-    background-color: #f783ac;
+    height: 45px;
+    background-color: #FE64E0;
     border: none;
     border-radius: 4px;
     color: white;
-    font-size: 12px;
     margin-top: 20px;
+    font-size: 16px;
   }
 
   @media (min-width: 700px) {
@@ -98,27 +101,18 @@ box-shadow: -3px 2px 20px 2px rgba(247,131,172,1);
   }
 `;
 
-/* export const Link = styled(LinkRouter)`
-  background-color: var(--color-gray-700);
-  color: white;
-  width: 80px;
-  height: 30px;
-  font-size: 10px;
-  border-radius: 4px;
-  text-align: center;
-  padding-top: 8px;
-`; */
 
 export const LinkLogin = styled(Link)`
-  border-radius: 3.19812px;
+  border-radius: 6px;
   width: 100%;
   height: 45px;
   padding-left: 10px;
-  background-color: #91a7ff;
+  background-color: #01C8E7;
   margin-top: 15px;
+  margin-bottom: 20px;
   color: white;
   text-align: center;
   padding-top: 14px;
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
 `;

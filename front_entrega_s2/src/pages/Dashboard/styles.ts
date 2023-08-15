@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import backgroundColor from "../../assets/pastel.jpg"
+import backgroundColor from "../../assets/new.jpg"
 
 export const DashboardContainer = styled.div`
   width: 100vw;
@@ -28,7 +28,7 @@ export const DashboardContainer = styled.div`
     height: 40px;
   }
   .buttonAdd {
-    background: #E75BC2;
+    background: #FE64E0;
     border-radius: 4px;
     border: none;
     margin-top: 15px;
@@ -39,11 +39,11 @@ export const DashboardContainer = styled.div`
     height: 40px;
   }
   .buttonDelete{
-    background: #00B8EA;
+    background: #01C8E7;
     border-radius: 6px;
     border: none;
     margin-top: 15px;
-    color: ;
+    color: white;
     font-size: 14px;
     padding: 8px;
     height: 40px;
@@ -69,7 +69,7 @@ export const DashboardContainer = styled.div`
     margin-top: 10px;
     color: black;
     weight: 500;
-    background-color: #d0ebff;
+    background-color: white;
     padding: 0 30px;
     gap: 10px;
     -webkit-box-shadow: 4px 4px 0px 6px rgba(0,0,0,1);
@@ -78,9 +78,10 @@ box-shadow: 4px 4px 0px 6px rgba(0,0,0,1);
   }
 
   .title{
-    width: 100px;
-    padding: 5px 10px;
-    height: 30px;
+    width: 150px;
+    padding: 10px 10px;
+    height: 40px;
+    background: white;
     -webkit-box-shadow: 3px 2px 0px 5px rgba(0,0,0,1);
 -moz-box-shadow: 3px 2px 0px 5px rgba(0,0,0,1);
 box-shadow: 3px 2px 0px 5px rgba(0,0,0,1);
@@ -92,6 +93,7 @@ margin: 30px 0 30px
     color: black;
     margin: 30px 0 20px 0;
   }
+  p{font-size: 18px}
   li {
     color: black;
     background: var(--color-gray-100);
@@ -103,9 +105,9 @@ margin: 30px 0 30px
     font-size: 15px;
     padding: 0 5px;
     margin: 0 px;
-    -webkit-box-shadow: 3px 4px 0px 3px rgba(0,0,0,1);
--moz-box-shadow: 3px 4px 0px 3px rgba(0,0,0,1);
-box-shadow: 3px 4px 0px 3px rgba(0,0,0,1);
+    -webkit-box-shadow: 3px 2px 0px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 2px 0px 5px rgba(0,0,0,0.75);
+box-shadow: 3px 2px 0px 5px rgba(0,0,0,0.75);
   }
 
   h3{
