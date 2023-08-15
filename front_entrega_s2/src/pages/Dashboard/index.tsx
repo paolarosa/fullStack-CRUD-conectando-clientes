@@ -162,7 +162,7 @@ export const Dashboard = () => {
           <p>Email: {client?.email}</p>
           <p>Telefone: {client?.phone}</p>
         </div>
-        <h2>Contatos</h2>
+        <h2 className="title">Contatos:</h2>
         <ul>
           {contacts.map((contact) => (
             <li

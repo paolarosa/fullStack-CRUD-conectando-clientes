@@ -74,13 +74,13 @@ export const Register = () => {
   return (
     <FormRegister>
       <div className="divContainer">
-        <h2>Cadastro</h2>
         <form
           onSubmit={(event) => {
             event.preventDefault();
             register();
           }}
         >
+          <h2>Cadastro</h2>
           <label>Nome:</label>
           <input
             type="text"

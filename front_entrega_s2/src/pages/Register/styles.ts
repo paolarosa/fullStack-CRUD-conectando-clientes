@@ -27,8 +27,10 @@ export const FormRegister = styled.div`
 
   form {
     width: 95%;
-    background: #F3E88D;
-    box-shadow: 0px 3.19812px 31.9812px -7.99531px rgba(0, 0, 0, 0.25);
+    background: #fcc2d7;
+    -webkit-box-shadow: -3px 2px 20px 2px rgba(247,131,172,1);
+-moz-box-shadow: -3px 2px 20px 2px rgba(247,131,172,1);
+box-shadow: -3px 2px 20px 2px rgba(247,131,172,1);
     border-radius: 4px;
     margin-top: 20px;
     display: flex;
@@ -70,7 +72,7 @@ export const FormRegister = styled.div`
   .buttonSubmit {
     width: 100%;
     height: 38px;
-    background-color: #F7A94D;
+    background-color: #f783ac;
     border: none;
     border-radius: 4px;
     color: white;
@@ -112,7 +114,7 @@ export const LinkLogin = styled(Link)`
   width: 100%;
   height: 45px;
   padding-left: 10px;
-  background-color: #F7A94D;
+  background-color: #91a7ff;
   margin-top: 15px;
   color: white;
   text-align: center;

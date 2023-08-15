@@ -17,7 +17,7 @@ export const FormLogin = styled.div`
   }
 
   h2 {
-    color: white;
+    color: black;
     font-size: 16px;
     text-align: center;
     margin: 30px 0 10px 0;
@@ -26,8 +26,11 @@ export const FormLogin = styled.div`
   form {
     width: 95%;
     height: 420px;
-    background: #4983ED;
-    box-shadow: 0px 3.19812px 31.9812px -7.99531px rgba(0, 0, 0, 0.25);
+    background: #a5d8ff;
+    -webkit-box-shadow: 0px 2px 14px 3px rgba(145,167,255,1);
+-moz-box-shadow: 0px 2px 14px 3px rgba(145,167,255,1);
+box-shadow: 0px 2px 14px 3px rgba(145,167,255,1);
+
     border-radius: 4px;
     margin-top: 20px;
     display: flex;
@@ -59,13 +62,14 @@ export const FormLogin = styled.div`
     height: 38px;
     padding-left: 10px;
     font-size: 14px;
-    background-color: #5CD5F3;
+    background-color: #4dabf7;
     color: black;
+    border: none;
     margin: 20px 0 30px 0;
   }
 
   h4 {
-    color: white;
+    color: black;
     font-size: 12px;
     text-align: center;
   }
@@ -105,9 +109,9 @@ export const LinkRegister = styled(Link)`
   width: 100%;
   height: 45px;
   padding-left: 10px;
-  background-color: var(--color-gray-600);
+  background-color: #faa2c1;
   margin-top: 15px;
-  color: white;
+  color: black;
   text-align: center;
   padding-top: 14px;
   font-size: 14px;

@@ -24,7 +24,8 @@ export const DashboardContainer = styled.div`
     border-radius: 4px;
     margin-top: 15px;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
+    height: 40px;
   }
   .buttonAdd {
     background: #E75BC2;
@@ -33,8 +34,9 @@ export const DashboardContainer = styled.div`
     margin-top: 15px;
     margin-right: 10px;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     padding: 8px;
+    height: 40px;
   }
   .buttonDelete{
     background: #00B8EA;
@@ -42,8 +44,9 @@ export const DashboardContainer = styled.div`
     border: none;
     margin-top: 15px;
     color: ;
-    font-size: 12px;
+    font-size: 14px;
     padding: 8px;
+    height: 40px;
   }
   .divMain{
     display: flex;
@@ -61,12 +64,29 @@ export const DashboardContainer = styled.div`
 
   .contactTitle {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center; 
+    justify-content: space-between; 
     margin-top: 10px;
     color: black;
     weight: 500;
+    background-color: #d0ebff;
+    padding: 0 30px;
+    gap: 10px;
+    -webkit-box-shadow: 4px 4px 0px 6px rgba(0,0,0,1);
+-moz-box-shadow: 4px 4px 0px 6px rgba(0,0,0,1);
+box-shadow: 4px 4px 0px 6px rgba(0,0,0,1);
   }
+
+  .title{
+    width: 100px;
+    padding: 5px 10px;
+    height: 30px;
+    -webkit-box-shadow: 3px 2px 0px 5px rgba(0,0,0,1);
+-moz-box-shadow: 3px 2px 0px 5px rgba(0,0,0,1);
+box-shadow: 3px 2px 0px 5px rgba(0,0,0,1);
+margin: 30px 0 30px
+  }
+
   h2 {
     font-size: 18px;
     color: black;
@@ -168,7 +188,7 @@ box-shadow: 3px 4px 0px 3px rgba(0,0,0,1);
       padding: 0 10px;
     }
     li:hover {
-      background-color: var(--color-gray-800);
+      background-color: #ffdeeb;
     }
 
 /*     h3{
